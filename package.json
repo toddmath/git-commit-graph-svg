@@ -1,0 +1,21 @@
+{
+  "name": "git_commit_graph",
+  "version": "1.0.0",
+  "description": "node scraper for bitbooster.com online commit graph tool",
+  "main": "src/index.js",
+  "author": "toddmath",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node -r esm ./src/index.js",
+    "start": "node -r esm ./src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "esm": "^3.2.25",
+    "puppeteer": "^3.0.2",
+    "ramda": "^0.27.0"
+  }
+}
